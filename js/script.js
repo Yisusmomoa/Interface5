@@ -40,6 +40,19 @@ $(document).ready(function(){
       $(".toggle-button").click(function(){
           $(".navbar-links").slideToggle("slow");
       });
+
+      //Boton más información
+      $("div#QuienesSomos button").mouseenter(
+        function(){
+          $(this).animate( {fontSize:"1.1rem"},100);
+          
+        });
+        $("div#QuienesSomos button").mouseleave(
+          function(){
+              $(this).animate( {fontSize:"1rem"},100);
+              
+        });
+
 /*
       //logo
       $(".brand-title a img").mouseenter(
@@ -58,3 +71,8 @@ $(document).ready(function(){
     
 
     //como animar bien la imagen sin que se ueva todo alv 
+
+
+
+
+
