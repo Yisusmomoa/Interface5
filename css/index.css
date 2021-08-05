@@ -357,56 +357,69 @@ a .Card{
   transition: all 1s ease;
 }
 
+
+
 /*Producto gratis en la primera compra*/
-
-#ProductosGratis{
-margin: 0;
-padding: 0;
-display: flex;
-justify-content: center;
-flex-wrap: wrap;
-position: absolute;
+div#ProductosGratis h2{
+  text-align: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 35px;
+  font-weight:600;
+  padding: auto;
+  margin:10px 0 0 0;
 }
 
-#ProductosGratis h2{
-text-align: center;
-font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-font-size: 35px;
-font-weight:600;
-padding: auto;
-margin:10px 0 0 0;
+.container2{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-.ProductoG{
-position: relative;
+.Card2 h1{
+  color: white;
+  text-align: center;
+  text-decoration: none;
 }
 
-.ProductoG  img{
-  margin-left: 15px;
+.Card2{
+  background-color: black;
+  width: 570px;
+  height: 450px;
+  margin: 0px;
   border-radius: 3px;
 }
 
-.ProductoG h1{
-  position: absolute;
-  right: 40%;
-  bottom: 0;
-  color: #ffffff;
+.Card2-image{
+  background-color: aqua;
+  height: 370px;
+  margin-bottom: 15px;
+  background-size: cover;
+}
+
+.car-4{
+  background-image: url(/Media/IsotipoB.PNG);
+}
+
+.car-5{
+  background-image: url(/Media/IsotipoB.PNG);
 }
 
 
+/*Carousel productos*/
 
+.carousel-inner{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.Card3{
+  background-color: black;
+  width: 170px;
+  height: 150px;
+  margin: 0px;
+  border-radius: 3px;
+}
 
 
 

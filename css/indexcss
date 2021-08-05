@@ -348,3 +348,54 @@ nav{
     
 }
 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//productos gratis
+
+#ProductosGratis{
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+position: absolute;
+}
+
+#ProductosGratis h2{
+text-align: center;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 35px;
+font-weight:600;
+padding: auto;
+margin:10px 0 0 0;
+}
+
+.ProductoG{
+position: relative;
+}
+
+.ProductoG  img{
+  margin-left: 15px;
+  border-radius: 3px;
+}
+
+.ProductoG h1{
+  position: absolute;
+  right: 40%;
+  bottom: 0;
+  color: #ffffff;
+}

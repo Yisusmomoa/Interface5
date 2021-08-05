@@ -1,4 +1,17 @@
+window.addEventListener('load', function(){
+  new Glider(document.querySelector('.carousel__lista'),{
+    slidesToScroll: 4,
+    slidesToShow: 4,
+    draggable: true,
+    dots: '.carousel_indicadores',
+    arrows: {
+      prev: '.carousel__anterior',
+      next: '.carousel__siguiente'
+    }
+  });
+  console.log("entro");
 
+});
 
 const toggleButton = document.getElementsByClassName('toggle-button')[0]
 const navbarLinks = document.getElementsByClassName('navbar-links')[0]
@@ -71,6 +84,7 @@ $(document).ready(function(){
     
 
     //como animar bien la imagen sin que se ueva todo alv 
+
 
 
 
