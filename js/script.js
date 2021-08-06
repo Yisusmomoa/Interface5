@@ -1,17 +1,4 @@
-window.addEventListener('load', function(){
-  new Glider(document.querySelector('.carousel__lista'),{
-    slidesToScroll: 4,
-    slidesToShow: 4,
-    draggable: true,
-    dots: '.carousel_indicadores',
-    arrows: {
-      prev: '.carousel__anterior',
-      next: '.carousel__siguiente'
-    }
-  });
-  console.log("entro");
 
-});
 
 const toggleButton = document.getElementsByClassName('toggle-button')[0]
 const navbarLinks = document.getElementsByClassName('navbar-links')[0]
@@ -65,6 +52,35 @@ $(document).ready(function(){
               $(this).animate( {fontSize:"1rem"},100);
               
         });
+
+        $('.owl-carousel').owlCarousel({
+          loop:true,
+          margin:100,
+          merge:true,
+          mergeFit:true,
+        //  nav:true, //se puede quitar
+          items:5,
+          stagePadding: Number,
+          
+          responsive:{
+              400:{
+                  items:2
+                  
+              },
+              600:{
+                margin:100,
+                  items:3
+              },
+              800:{
+                  items:5
+              }
+          }
+        });
+
+
+
+
+        
 
 /*
       //logo

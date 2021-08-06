@@ -407,30 +407,17 @@ div#ProductosGratis h2{
 
 /*Carousel productos*/
 
-.carousel-inner{
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+
+.owl-carousel{
+ 
 }
 
-.Card3{
-  background-color: black;
-  width: 170px;
-  height: 150px;
-  margin: 0px;
-  border-radius: 3px;
+.owl-carousel .item{
+  
+ 
+
 }
 
+.owl-carousel .item img:hover{
 
-
-
-
-
-
-
-
-
-
-
-
-
+}
