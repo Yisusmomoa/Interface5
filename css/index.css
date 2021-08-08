@@ -2,7 +2,7 @@
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Times New Roman', Times, serif;
 }
 
 body {
@@ -324,7 +324,7 @@ div#Categorias h1{
   width: 270px;
   height: 350px;
   margin: 0px;
-  border-radius: 3px;
+  border-radius: 3px 3px 3px 3px;
 }
 
 .Card-image{
@@ -386,7 +386,7 @@ div#ProductosGratis h2{
   width: 570px;
   height: 450px;
   margin: 0px;
-  border-radius: 3px;
+  border-radius: 3px 3px 3px 3px;
 }
 
 .Card2-image{
@@ -406,18 +406,94 @@ div#ProductosGratis h2{
 
 
 /*Carousel productos*/
+ h2{
+  text-align: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 35px;
+  font-weight:600;
+  padding: auto;
+  margin:10px 0 0 0;
+}
 
+.Card3 h3{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 70px;
+}
+.Card3 h4{
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+.Card3 h5{
+  color: white;
+  text-align: center;
+  text-decoration: none;
+
+}
+.Card3 button{
+ float: right;
+ position: relative;
+ right: 30%;
+ 
+ border-radius: 3px 3px 3px 3px;
+ background-color: #e7e7e7; color: black;
+ border: none;
+ padding: 15px 32px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+}
+.Card3{
+  background-color: black;
+  width: 350px;
+  height: 450px;
+  border-radius: 3px 3px 3px 3px;
+  display: inline-block;
+
+}
+
+.Card3-image{
+  background-color: aqua;
+  height: 170px;
+  margin-bottom: 15px;
+  background-size: cover;
+}
+
+.Card-image img{
+  height: 180%;
+}
 
 .owl-carousel{
- 
+ background-color: black;
 }
 
-.owl-carousel .item{
-  
- 
 
+
+@media (max-width:599px){
+  .Card3{
+    margin-left: 150px;
+  }
 }
 
-.owl-carousel .item img:hover{
 
+
+/*Redes sociales*/
+
+.RedesSociales{
+  text-align: center;
+}
+
+.RedesSociales a{
+  font-size: 40px;
+  color: black;
+  margin-right: 15px;
+}
+
+.RedesSociales a:hover{
+  color: #555555;
 }

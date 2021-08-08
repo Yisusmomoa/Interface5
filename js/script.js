@@ -52,27 +52,34 @@ $(document).ready(function(){
               $(this).animate( {fontSize:"1rem"},100);
               
         });
-
+        var carousel1=document.getElementsByClassName('Card3');
         $('.owl-carousel').owlCarousel({
           loop:true,
           margin:100,
           merge:true,
           mergeFit:true,
         //  nav:true, //se puede quitar
-          items:5,
+          items:4,
           stagePadding: Number,
           
           responsive:{
-              400:{
+              600:{
                   items:2
                   
               },
-              600:{
-                margin:100,
+              900:{
                   items:3
               },
               800:{
-                  items:5
+                  items:2
+              },
+              1000:{
+                items:4
+              },
+              500:{
+                items:1
+                
+                //modificar el padding o margin
               }
           }
         });
