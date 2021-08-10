@@ -52,6 +52,7 @@ $(document).ready(function(){
               $(this).animate( {fontSize:"1rem"},100);
               
         });
+
         var carousel1=document.getElementsByClassName('Card3');
         $('.owl-carousel').owlCarousel({
           loop:true,
@@ -85,10 +86,6 @@ $(document).ready(function(){
         });
 
 
-
-
-        
-
 /*
       //logo
       $(".brand-title a img").mouseenter(
@@ -107,6 +104,37 @@ $(document).ready(function(){
     
 
     //como animar bien la imagen sin que se ueva todo alv 
+
+
+
+
+
+
+//popup
+var btnAbrirPopup=document.getElementById('btn-abrir-popup'),
+    overlay=document.getElementById('overlay'),
+    popup=document.getElementById('popup'),
+    btncerrarpopup=document.getElementById('btn-cerrar-popup');
+
+btnAbrirPopup.addEventListener('click', function(){
+    overlay.classList.add('active');
+    popup.classList.add('active');
+});
+
+
+btncerrarpopup.addEventListener('click',function(){
+  overlay.classList.remove('active');
+  popup.classList.remove('active');
+});
+
+
+
+
+
+
+
+
+
 
 
 
