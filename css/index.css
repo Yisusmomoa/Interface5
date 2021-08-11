@@ -15,8 +15,10 @@ body {
     position: relative;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
+    background-color: rgb(109, 109, 109);
     color: white;
+    transition: .5s ease all;
+
 }
  
 nav{
