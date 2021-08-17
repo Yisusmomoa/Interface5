@@ -55,18 +55,34 @@ $(document).ready(function(){
         });
 
         //img ojo cuando se pasa el curosr sobre la card
-        $(".InfoProd").mouseenter(
+        $(".box").mouseenter(
           function(){
             console.log("si entro");
-            $(this).find(".box img").animate({opacity: '0.5'},'fast');
-            //$(this).animate({opacity: '0.5'},'fast');
+            $(this).find(".InfoProd").animate({'padding-top': '25px'},300);
+            $(this).find(".InfoProd").animate({opacity: '1'},'fast');
+            $(this).find("img").css("transform", "scale(1.2)"); //jala pero va sucede demasiado rapido
+           
+            /*
+            $(this).find("img").animate({
+              "width": 110,
+              "height": 200,
+              "left": 50,
+              "top":  50 }, 1500 );
+              */
+
+            //$(this).find("img").css("transform", "scale(1.2)"); //jala pero va sucede demasiado rapido
+            //$(this).animate({opacity: '0.5'},'fast'); 
           });
 
           //Arreglar aquí
         //o hacer que a imagen se escale un poco
           $(".box").mouseleave(
             function(){
-              $(this).find(".box img").animate({transform:'scale(2)'}, 3000);
+             
+              $(this).find(".InfoProd").animate({'padding-top': '0px'},300);
+              $(this).find(".InfoProd").animate({opacity: '0.7'},'fast');
+              
+              $(this).find("img").css("transform", "scale(1)");
           });
          
 
