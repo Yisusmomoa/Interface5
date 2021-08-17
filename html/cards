@@ -1,0 +1,153 @@
+ <div id="cardsProds">
+
+            <a href="" class="ProductoCard">
+              <div class="card  mb-3" style="width: 18rem;">
+                <img src="/Media/Isotipo.PNG" class="card-img-top" alt="...">
+                <img class="imgojo" src="/Media/eye2.png" alt="">
+                <div class="card-body">
+                  <h2 class="card-title">Precio:599$</h2>
+                  <h5 class="card-text">Titulo Producto</h5>
+                  <h6 class="card-text">Marca</h6>
+                  <a href="#" class="btn btn-outline-dark">Añadir al carrito</a>
+                </div>
+              </div>
+            </a>  
+              <a href="" class="ProductoCard">
+                <div class="card  mb-3" style="width: 18rem;">
+                  <img src="/Media/Isotipo.PNG" class="card-img-top" alt="...">
+                  <img class="imgojo" src="/Media/eye2.png" alt="">
+                  <div class="card-body">
+                    <h2 class="card-title">Precio:599$</h2>
+                    <h5 class="card-text">Titulo Producto</h5>
+                    <h6 class="card-text">Marca</h6>
+                    <a href="#" class="btn btn-outline-dark">Añadir al carrito</a>
+                  </div>
+                </div>
+              </a>
+              <a href="" class="ProductoCard">
+                <div class="card  mb-3" style="width: 18rem;">
+                  <img src="/Media/Isotipo.PNG" class="card-img-top" alt="...">
+                  <img class="imgojo" src="/Media/eye2.png" alt="">
+                  <div class="card-body">
+                    <h2 class="card-title">Precio:599$</h2>
+                    <h5 class="card-text">Titulo Producto</h5>
+                    <h6 class="card-text">Marca</h6>
+                    <a href="#" class="btn btn-outline-dark">Añadir al carrito</a>
+                  </div>
+                </div>
+              </a>
+
+              <a href="" class="ProductoCard">
+                <div class="card  mb-3" style="width: 18rem;">
+                  <img src="/Media/Isotipo.PNG" class="card-img-top" alt="...">
+                  <img class="imgojo" src="/Media/eye2.png" alt="">
+                  <div class="card-body">
+                    <h2 class="card-title">Precio:599$</h2>
+                    <h5 class="card-text">Titulo Producto</h5>
+                    <h6 class="card-text">Marca</h6>
+                    
+                    <a href="#" class="btn btn-outline-dark">Añadir al carrito</a>
+                  </div>
+                </div>
+              </a>
+              
+              
+
+           </div>
+
+
+
+
+
+
+
+
+#cardsProds.activee{
+ 
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  top: 10%;/*es para mover las card hacia abajo cuandos e de click en el combobox*/
+  
+}
+/*agregar una transición*/
+
+
+.ProductosCateg {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  }
+
+
+
+#cardsProds{
+  
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+#cardsProds a{
+  text-decoration: none;
+}
+#cardsProds .card{
+  margin-top: 10px;
+ margin-right: 25px;
+ margin-left: 25px;
+ background-color: rgb(17, 17, 17);
+ color: white;
+ text-align: center;
+ text-transform: uppercase;
+ font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+  
+}
+
+#cardsProds .card:hover{
+  cursor: pointer;
+}
+#cardsProds .card .card-body{
+  border: solid 1px white;
+}
+#cardsProds .card .card-body a{
+  color: white;
+  background-color: #555555;
+}
+#cardsProds .card .card-body  .btn:hover{
+  background-color: #ffffff;
+  color: #000;
+}
+
+.card .imgojo{
+  width: 70px;
+  height: 50px;
+  border-radius: 3px;
+  position: absolute;
+  top: 90px;
+  left: 100px;
+  
+  opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

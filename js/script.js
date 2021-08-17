@@ -25,6 +25,7 @@ function AddOrRemove(){
 
 
 $(document).ready(function(){
+  var comboboxactivo=0;
   //links categorias iniciar sesión registrate
     $(".navbar-links li a").mouseenter(
       function(){
@@ -53,6 +54,38 @@ $(document).ready(function(){
               
         });
 
+        //img ojo cuando se pasa el curosr sobre la card
+        $(".InfoProd").mouseenter(
+          function(){
+            console.log("si entro");
+            $(this).find(".box img").animate({opacity: '0.5'},'fast');
+            //$(this).animate({opacity: '0.5'},'fast');
+          });
+
+          //Arreglar aquí
+        //o hacer que a imagen se escale un poco
+          $(".box").mouseleave(
+            function(){
+              $(this).find(".box img").animate({transform:'scale(2)'}, 3000);
+          });
+         
+
+          //Evento click en combobox
+          $('#comboboxordenarpor').click(function(){ 
+          
+            if(comboboxactivo===0){
+              console.log('.l.');
+              comboboxactivo=1;
+              $(".containercardsprods").addClass("activee");
+             // $("#cardsProds").animate({top: "+=20px"},1000);
+            }
+            else{
+              comboboxactivo=0;
+              $(".containercardsprods").removeClass("activee");
+             // $("#cardsProds").animate({top: "-=1px"},1000);
+            }
+          });
+          
         $(window).scroll(function(){
           var scroll = $(window).scrollTop();
           if (scroll > 10) {
@@ -159,14 +192,14 @@ var btnAbrirPopup2=document.getElementById('btn-abrir-popup2'),
   popup2.classList.remove('active');
 });
 
+//combobox productos
 
+var comboboxordenarpor=document.getElementById('comboboxordenarpor');
 
-
-
-
-
-
-
+comboboxordenarpor.addEventListener('click', function(){
+  //comboboxordenarpor.classList.add('activee');
+  console.log("tuptm");
+});
 
 
 
