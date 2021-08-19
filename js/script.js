@@ -87,6 +87,22 @@ $(document).ready(function(){
          
 
           //Evento click en combobox
+          $('.toggle-button').click(function(){ 
+          
+            if(comboboxactivo===0){
+              console.log('.l.');
+              comboboxactivo=1;
+              $("article").addClass("activearticulo");
+             // $("#cardsProds").animate({top: "+=20px"},1000);
+            }
+            else{
+              comboboxactivo=0;
+              $("article").removeClass("activearticulo");
+              //$("#cardsProds").animate({top: "-=1px"},1000);
+            }
+          });
+
+          //Evento click en combobox
           $('#comboboxordenarpor').click(function(){ 
           
             if(comboboxactivo===0){
@@ -145,6 +161,9 @@ $(document).ready(function(){
               }
           }
         });
+
+        
+
 
 
 /*

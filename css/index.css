@@ -40,6 +40,19 @@ nav{
     margin-left: -40%;*/
     top: 18.7%;
     background:  #ffffff;
+    
+  }
+
+  article.activearticulo{
+    position: absolute;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+   /* left: 50%;
+    margin-left: -40%;*/
+    top: 18.7%;
+    background:  #ffffff;
+    margin-top: 300px;
   }
 
   .Paste{
@@ -671,7 +684,7 @@ opacity: 0;
 /*****************************************************************************************************************************************************************************/
 /*****************************************************************************************************************************************************************************/
 /*****************************************************************************************************************************************************************************/
-/*categorias*/
+/*Productos*/
 
 
 
@@ -682,7 +695,6 @@ div#CabeceraCategs h1{
   font-weight:600;
   padding: auto;
   margin:10px 0 0 0;
-  
 }
 
 .categs{
@@ -693,7 +705,7 @@ div#CabeceraCategs h1{
   flex-wrap: wrap;
   background-color: #333;
   width: 80%;
-  height: 250px;
+  height: 450px;
   border-radius: 3px;
 }
 
@@ -721,9 +733,26 @@ div#CabeceraCategs h1{
   width: 90%;
   height: 50px;
   border-radius: 3px;
-  bottom: 50px;/*aquí es para mover el combobox y quede más arroba*/
+  bottom: 150px;/*aquí es para mover el combobox y quede más arroba*/
 }
-
+@media screen and (max-width:962px){
+  .categs a{
+    width: 10%;
+    display:block;
+    margin:auto;
+    margin-top: 7px;
+  
+  }
+  .categs h4{
+    font-size: 20px;
+    display:block;
+    margin:auto;
+    font-weight: 400;
+  }
+  .CabeceraOrdenarPor{
+    bottom: 150px;
+  }
+}
 /*
 .ProductosCateg{
   position: absolute;
@@ -769,7 +798,10 @@ div#CabeceraCategs h1{
 
   position:relative;
   margin: 150px auto;
-  
+}
+
+@media screen and (max-width:962px){
+
 }
 
  .box {
@@ -822,10 +854,22 @@ div#CabeceraCategs h1{
   color: white;
 }
 
-
 @media screen and (max-width:1200px){
   .box{
     width: 40%;
+   
+  }
+}
+
+@media screen and (max-width:1598px){
+  .box{
+  
+  height: 400px;/*alto de la card*/
+  background-color: rgb(255, 255, 255);
+  margin: 20px;
+  padding-bottom: 90px;
+
+  border-radius: 3px;
 
   }
 }
@@ -835,17 +879,5 @@ div#CabeceraCategs h1{
 
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 

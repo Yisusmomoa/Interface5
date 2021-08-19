@@ -1,0 +1,168 @@
+ <div class="box-container">
+          <div class="boxprod">
+            <div class="image-container">
+              <div class="big-image">
+                <img src="/Media/Isotipo.PNG" alt="">
+              </div>
+            </div>
+            <div class="content">
+              <h3 class="title">Nombre Producto</h3>
+              <div class="price">$Precio Producto</div>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                 Itaque, quisquam voluptatibus cupiditate esse tenetur eligendi.
+              </p>
+              <form action="">
+                <div class="quantity">
+                  <span>quantity: </span>
+                  <input type="number" name="" value="1" id="">
+                </div>
+              </form>
+              <a href="#"><button class="btn"><i class="fas fa-shopping-cart"></i> add to cart</button></a>
+
+            </div>  
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+.box-container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+    background-color: #ccc;
+
+}
+
+.box-container .boxprod{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    width: 90%;
+    padding:1rem;
+    margin: 2rem;
+    box-shadow: 0 .3rem .5rem #3337;
+    
+}
+
+.box-container .boxprod .image-container{
+    text-align: center;
+    padding:1rem 2rem;
+
+}
+
+.box-container .boxprod .image-container .big-image{
+    box-shadow: 0 .3rem .5rem #3337;
+    border: .5rem solid #fff;
+    padding: 2rem 1rem;
+    background-color: #eee;
+
+}
+
+/*cambiar selector*/
+.box-container .boxprod .image-container .big-image img{
+    height: 30rem;
+
+}
+
+.box-container .boxprod .content{
+    padding: 1rem;
+
+}
+
+.box-container .boxprod .content .title{
+    font-size: 3rem;
+    color: #333;
+    padding: 1rem 0;
+    text-transform: uppercase;
+
+}
+
+.box-container .boxprod .content .price{
+    color: #333;
+    border-top: .2rem solid #333;
+    border-bottom: .2rem solid #333;
+    font-size: 3rem;
+    padding: .5rem;
+    display: inline-block;
+
+}
+
+.box-container .boxprod .content p{
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    color: #666;
+}
+
+.box-container .boxprod .content form .quantity{
+    padding: 2rem 0;
+
+}
+
+.box-container .boxprod .content form .quantity span{
+    font-size: 2rem;
+    color: #333;
+
+}
+
+.box-container .boxprod .content form .quantity input{
+    height: 3rem;
+    width: 6rem;
+    text-align: 6rem;
+    font-size: 2rem;
+    color: #666;
+    margin: 0 1rem;
+
+}
+
+.box-container .boxprod .content .btn{
+    height: 4rem;
+    width: 18rem;
+    background-color: #333;
+    color: #fff;
+    margin-right: 1rem ;
+    border:none;
+    
+}
+
+.box-container .boxprod .content .btn:hover{
+    background: #666;
+
+}
+
+
+@media (max-width: 768px) {
+    .box-container{
+        font-size: 55%;
+        width: 100%;
+    }
+    .box-container .boxprod{
+        flex-flow: column;
+    }
+}
+
+@media (max-width: 400px) {
+    .box-container{
+        font-size: 50%;
+        width: 10%;
+    }
+    .box-container .boxprod .image-container .big-image img{
+        height: auto;
+        width: 100%;
+        
+    }
+}
+
+
+
+
+
+
+

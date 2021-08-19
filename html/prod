@@ -1,0 +1,53 @@
+ <div class="ProductoContainer">
+            <div class="imgProd">
+                <img src="/Media/pixlr-bg-result.png" alt="">
+            </div>
+            <div class="InfoProducto">
+                <h3>Nombre Producto</h3>
+                <h3>Marca Producto</h3>
+                <h3>Categoria Producto</h3>
+                <h1>Precio </h1>
+                <h4>Descripción: Lorem ipsum dolor sit amet consectetur 
+                    adipisicing elit. Quasi quaerat sunt repellendus nobis, 
+                    ad architecto?</h4>
+                <h3>Cantidad</h3>
+                <br>
+                <div class="weas">
+                    <input type="number" name="" id="" min="0" max="99">
+                    <input type="submit" value="Agregar Carrito">
+                </div>
+            </div>
+           
+        </div>
+
+
+
+.ProductoContainer{
+  
+  margin: 0 auto;
+  display: flex;
+  
+  background-color: #333;
+  width: 80%;
+  height: auto;
+  border-radius: 3px;
+  color:#ffffff;
+}
+
+.ProductoContainer .imgProd{
+  justify-content: left;
+  padding: auto;
+  margin:30px 300px 30px 30px;
+  height: auto;
+}
+
+.ProductoContainer img{
+  width: 180%;
+  height: auto;
+}
+
+.InfoProducto{
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
