@@ -87,6 +87,8 @@ nav{
     color: white;
     padding: 1rem;
     transition: .3s ease all;
+    font-weight: 900;
+    text-transform: uppercase;
 }
 
 #btn-buscar:hover{
@@ -114,6 +116,7 @@ nav{
     border-radius: 10px;
 }
 #btn-buscar{
+  text-transform: uppercase;
 transition: .3s ease all;
 }
 @media (min-width:900px){
@@ -278,6 +281,7 @@ div#QuienesSomos #infoquienessomos h4{
 }
 
 div#QuienesSomos button{
+  text-transform: uppercase;
   text-align: center;
   position: absolute;
   right:    45%;
@@ -328,6 +332,7 @@ div#Categorias h1{
 /*Card Categorias*/
 
 .container{
+  
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
