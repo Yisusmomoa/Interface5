@@ -204,8 +204,11 @@ transition: .3s ease all;
         display: flex;
     }
 }
-
-
+.dropdown-menu{
+    background-color: black;
+   
+   
+}
 
 
 .slider{

@@ -27,12 +27,12 @@ function AddOrRemove(){
 $(document).ready(function(){
   var comboboxactivo=0;
   //links categorias iniciar sesión registrate
-    $(".navbar-links li a").mouseenter(
+    $(".navbar-links li a[Submenu=no]").mouseenter(
       function(){
         $(this).animate( {fontSize:"1.1rem"},10);
         $(this).animate({opacity: '0.5'},'fast');
       });
-      $(".navbar-links li a").mouseleave(
+      $(".navbar-links li a[Submenu=no]").mouseleave(
         function(){
             $(this).animate( {fontSize:"1rem"},10);
             $(this).animate({opacity: '1', },'fast');

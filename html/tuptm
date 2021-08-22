@@ -1,0 +1,19 @@
+ input[type=text] {
+        border-color: #333;
+       
+        border: none;
+        margin-top: 8px;
+        margin-right: 15px;
+        font-size: 17px;
+       
+        border-radius: 3px;
+        
+      }
+      <li><div class="dropdown">
+              <span>Usuario</span>
+              <div class="dropdown-content">
+              <a href="" id="submenu1" style="color: black; font-size: 10px;">Perfil</a>
+              <a href="" id="submenu2" style="color: black; font-size: 10px;">Cerrar sesión</a>
+              </div>
+            </div>
+        </li>
