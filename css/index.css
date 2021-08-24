@@ -865,26 +865,56 @@ div#CabeceraCategs h1{
 @media screen and (max-width:1200px){
   .box{
     width: 40%;
-   
+    height: 400px;/*alto de la card*/
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+    padding-bottom: 90px;
+    border-radius: 3px;
   }
-}
-
-@media screen and (max-width:1598px){
-  .box{
+  .box img{
+    width: 80%;
+    width: 80%;
+    margin-left: auto; 
+    margin-right: auto;
+    display:block;
+  }
   
-  height: 400px;/*alto de la card*/
-  background-color: rgb(255, 255, 255);
-  margin: 20px;
-  padding-bottom: 90px;
+  
+.InfoProd .btn{
 
-  border-radius: 3px;
-
-  }
 }
+
+}
+
+
 @media screen and (max-width:600px){
   .box{
     width: 90%;
+    height: 400px;/*alto de la card*/
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+    padding-bottom: 90px;
+    border-radius: 3px;
+  }
+  .InfoProd h5,h6,h2,a{
+    text-align: center;
+    text-transform: uppercase;
+   /* padding-top: 25px;*/
 
+   font-size: 20px;
+    opacity: 0.7;
+    padding: 1px 0 1px 0;
+  }
+  .InfoProd .btn{
+    background-color: #b8b8b8; color: black;
+    border: none;
+   
+    padding: 6px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    transition-duration: 4s;
   }
 }
 
