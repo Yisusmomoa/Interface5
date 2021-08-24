@@ -60,3 +60,48 @@
 
 
 
+div#CabeceraCategs h1{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    font-weight:600;
+    padding: auto;
+    margin:10px 0 0 0;
+  }
+  
+  .categs{
+    position: absolute;
+    right: 10%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #333;
+    width: 80%;
+    height: 450px;
+    border-radius: 3px;
+  }
+  
+ 
+  
+  .CabeceraOrdenarPor {
+    position:relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 50px;
+    border-radius: 3px;
+    top: 10%;/*aquí es para mover el combobox y quede más arroba*/
+  }
+  @media screen and (max-width:962px){
+ 
+    .categs h4{
+      font-size: 20px;
+      display:block;
+      margin:auto;
+      font-weight: 400;
+    }
+    .CabeceraOrdenarPor{
+      bottom: 150px;
+    }
+  }
