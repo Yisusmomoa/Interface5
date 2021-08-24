@@ -42,6 +42,23 @@ $(document).ready(function(){
           $(".navbar-links").slideToggle("slow");
       });
 
+      //Botón pagar
+      $(".proceed-btn").mouseenter(
+        function(){
+          $(this).css({color: "#252525"},100);
+          $(this).css({background: "#fff"},100);
+          $(this).css({border: "1px solid #252525"},100);
+          $(this).css({transition: "0.5s"});
+          $(this).animate( {fontSize:"1.1rem"},100);
+        });
+
+        $(".proceed-btn").mouseleave(
+          function(){
+            $(this).css({color: "#fff"},100);
+            $(this).css({background: "#252525"},100);
+            $(this).css({transition: "0.5s"},100);
+            $(this).animate( {fontSize:"15px"},100);
+          });
       //Boton más información
       $("div#QuienesSomos button").mouseenter(
         function(){
@@ -85,7 +102,8 @@ $(document).ready(function(){
               $(this).find("img").css("transform", "scale(1)");
           });
          
-
+/*
+//desplazamieto pagina usando el menu 
           //Evento click en combobox
           $('.toggle-button').click(function(){ 
           
@@ -101,6 +119,7 @@ $(document).ready(function(){
               //$("#cardsProds").animate({top: "-=1px"},1000);
             }
           });
+          */
 
           //Evento click en combobox
           $('#comboboxordenarpor').click(function(){ 
@@ -239,6 +258,24 @@ comboboxordenarpor.addEventListener('click', function(){
 
 
 
+//Aumentar cantidad carrito
 
+function incrementValue()
+{
+    var value = parseInt(document.getElementById('1').value, 10);
+    value = isNaN(value) ? 0 : value;//wtf .-.
+   
+    value++;
+    document.getElementById('1').value = value;
+}
 
-
+function decrementValue()
+{
+    var value = parseInt(document.getElementById('1').value, 10);
+    value = isNaN(value) ? 0 : value;
+    if(value>1){
+      value--;
+      document.getElementById('1').value = value;
+    }
+    
+}

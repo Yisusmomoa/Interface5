@@ -40,27 +40,39 @@
 </head>
 <body>
     
-    <nav class="navbar" id ="EjNav">
-        <div class="brand-title"><a href=""><img src="/Media/pixlr-bg-result.png" alt=""width="150px" height="90px" id="imglogo"></a></div>
-        <a href="#" class="toggle-button">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-        </a>
-        <div class="navbar-links">
-          <ul>
-            <li><a href="#">Categorias</a></li>
-            <li><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" id="btn-abrir-popup2">Iniciar sesion</a></li>
-            <li><a href="#" id="btn-abrir-popup">Registro</a></li>
-            <li><a href="#">prueba</a></li>
-            <!-- <li><button type="menu"  data-bs-toggle="modal" data-bs-target="#exampleModal">
-              Launch demo modal
-            </button></li> -->
-            <li><input type="text" placeholder="Search.."> <input type="button" value="Buscar" id="btn-buscar"></li>
-           
-          </ul>
-        </div>
-      </nav>
+  <nav class="navbar" id ="EjNav">
+    <div class="brand-title"><a href=""><img src="/Media/pixlr-bg-result.png" alt=""width="150px" height="90px" id="imglogo"></a></div>
+    <a href="#" class="toggle-button">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </a>
+    <div class="navbar-links">
+      <ul>
+        <li><a Submenu="no" href="#">productos</a></li>
+        <li><a Submenu="no" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" id="btn-abrir-popup2">Iniciar sesion</a></li>
+        <li><a Submenu="no" href="#" id="btn-abrir-popup">Registro</a></li>
+        <li><a Submenu="no" href="#">Carrito<i class="fas fa-shopping-cart"></i> <span style="color: rgb(255, 255, 255); font-size: 12px;">1</span> </a></li>
+        <li>
+          <!--chinga tu puta madre pinche error de mierda .l.-->
+          <div class="dropdown show" style="top: 10%;">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Usuario
+            </button>
+            <div class="dropdown-menu" style="background-color: black; width:100px;" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" style="color:white; font-size:10px;" href="#">Perfil</a>
+              <a class="dropdown-item"  style="color:white; font-size:10px;" href="#">Cerrar sesión</a>
+            </div>
+          </div>
+        </li>
+        <!-- <li><button type="menu"  data-bs-toggle="modal" data-bs-target="#exampleModal">
+          Launch demo modal
+        </button></li> -->
+        <li><input type="text" placeholder="Search.."> <input type="button" value="Buscar" id="btn-buscar"></li>
+       
+      </ul>
+    </div>
+  </nav>
 
 
       <article>

@@ -119,7 +119,7 @@ nav{
   text-transform: uppercase;
 transition: .3s ease all;
 }
-@media (min-width:900px){
+@media (min-width:1120px){
     input[type=text] {
         border-color: #333;
         float: right; /**/
@@ -157,7 +157,7 @@ transition: .3s ease all;
     }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1120px) {
     .navbar {
         flex-direction: column;
         align-items: flex-start;
