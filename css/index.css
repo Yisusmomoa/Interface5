@@ -361,7 +361,11 @@ div#Categorias h1{
   margin-bottom: 15px;
   background-size: cover;
 }
-
+.Card-image img{
+  width: 100%;
+  
+}
+/*
 .car-1{
   background-image: url(/Media/IsotipoB.PNG);
 }
@@ -372,6 +376,7 @@ div#Categorias h1{
 .car-3{
   background-image: url(/Media/IsotipoB.PNG);
 }
+*/
 
 a .Card{
   color: white;
