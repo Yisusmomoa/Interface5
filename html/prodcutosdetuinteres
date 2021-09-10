@@ -1,0 +1,90 @@
+<div class="ProductosDeTuInteres0">
+    <h1 style="text-align: center;">Productos de tu interes</h1>
+    
+  
+    <h1 style="text-align: center;">Categoria</h1>
+    <div class="container ProductosDeTuInteres1 clearfix">
+        <a href="">
+          <div class="card col-4" style="width: 18rem;">
+            <img src="/Media/eye2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h3 class="card-title">Card title</h3>
+            </div>
+          </div>  
+        </a>
+    
+        <a href="">
+          <div class="card" style="width: 18rem;">
+            <img src="/Media/eye2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h3 class="card-title">Card title</h3>
+            </div>
+          </div>  
+        </a>
+      
+  
+      <a href="">
+        <div class="card" style="width: 18rem;">
+          <img src="/Media/eye2.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-title">Card title</h3>
+          </div>
+        </div>  
+      </a>
+  
+      <a href="">
+        <div class="card" style="width: 18rem;">
+          <img src="/Media/eye2.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-title">Card title</h3>
+          </div>
+        </div>  
+      </a>
+     
+      
+    </div>
+  
+    
+    <h1 style="text-align: center;">Categoria</h1>
+    <div class="container ProductosDeTuInteres1 clearfix">
+        <a href="">
+          <div class="card" style="width: 18rem;">
+            <img src="/Media/eye2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h3 class="card-title">Card title</h3>
+            </div>
+          </div>  
+        </a>
+    
+        <a href="">
+          <div class="card" style="width: 18rem;">
+            <img src="/Media/eye2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h3 class="card-title">Card title</h3>
+            </div>
+          </div>  
+        </a>
+      
+  
+      <a href="">
+        <div class="card" style="width: 18rem;">
+          <img src="/Media/eye2.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-title">Card title</h3>
+          </div>
+        </div>  
+      </a>
+  
+      <a href="">
+        <div class="card" style="width: 18rem;">
+          <img src="/Media/eye2.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-title">Card title</h3>
+          </div>
+        </div>  
+      </a>
+     
+      
+    </div>
+
+  </div>
