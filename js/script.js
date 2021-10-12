@@ -30,12 +30,14 @@ $(document).ready(function(){
     $(".navbar-links li a[Submenu=no]").mouseenter(
       function(){
         $(this).animate( {fontSize:"1.1rem"},10);
-        $(this).animate({opacity: '0.5'},'fast');
+        $(this).css({color: "#333"},100);
+      //  $(this).animate({opacity: '0.5'},'fast');
       });
       $(".navbar-links li a[Submenu=no]").mouseleave(
         function(){
             $(this).animate( {fontSize:"1rem"},10);
-            $(this).animate({opacity: '1', },'fast');
+            $(this).css({color: "#FFFFFF"},100);
+            //$(this).animate({opacity: '1', },'fast');
       });
       //toggle animacion slide
       $(".toggle-button").click(function(){
@@ -137,17 +139,17 @@ $(document).ready(function(){
             }
           });
           
-        $(window).scroll(function(){
-          var scroll = $(window).scrollTop();
-          if (scroll > 10) {
-            $(".navbar").css("background" , "#2C2E36");
-            $(this).trans
-          }
-          else{
-            $(".navbar").css("background" , "rgb(109, 109, 109)	");  
-          }
-          console.log(scroll);
-        })
+        // $(window).scroll(function(){
+        //   var scroll = $(window).scrollTop();
+        //   if (scroll > 10) {
+        //     $(".navbar").css("background" , "#2C2E36");
+        //     $(this).trans
+        //   }
+        //   else{
+        //     $(".navbar").css("background" , "rgb(109, 109, 109)	");  
+        //   }
+        //   console.log(scroll);
+        // })
 
         var carousel1=document.getElementsByClassName('Card3');
         $('.owl-carousel').owlCarousel({
